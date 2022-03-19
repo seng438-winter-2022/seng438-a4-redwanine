@@ -106,7 +106,7 @@ Original Test Suite (DataUtilities class)
 
 Updated Test Suite (DataUtilities class)
 
-![](./media/NEW_DATAUTILITIES.png)
+![](./media/NEW_DATAUTILITIES.PNG)
 
 [Details Here](./media/NEW_REPORT_DATAUTILITIES.pdf)
 
