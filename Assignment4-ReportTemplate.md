@@ -120,11 +120,60 @@ Updated Test Suite (DataUtilities class)
 
 # Explain your SELENUIM test case design process
 
+The test case design process was to atleast have some coverage over the main functionality of the website. We wanted end to end coverage of the different functionalitieis to ensure that the process was able to completely fullfil its requirements. The main areas we wanted to test was through searching the catalog, signing up on the mailing list, signing in, choosing a store, and being able to access the trueFit webpage. Each person split up to design their own test cases for different functionalities
+
 # Explain the use of assertions and checkpoints
+
+Assertions and verification checkpoints where required to make sure that the webpage was actually showing the desired output. For instance, when we expected a certain object to render, we asserted that it would be present, such that if it wasnt, the test would fail.
+
 
 # how did you test each functionaity with different test data
 
+<p>For most of our test cases, tests were designed such that the actual input data could be changed. That way, we could check to make sure the tests weren’t responding to only that specific input. For instance, when entering a wrong promo code, we entered multiple different wrong codes to make sure that the program still behaved accordingly.</p>
+
+<p>For certain functionalities, we also used different data to test certain scenarios. This was for instance done when entering valid and invalid mailing information. Different data was also used in find a store given a postal code. For instance, we put in a calgary postal code and a toronto postal code, and compared is stores showed up specific to the region.</p>
+
+
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
+
+Sikulix
+
+Pros:
+
+-   Image based recognition: very accurate to evaluate the regions on the screen properly
+
+-   Can be used on web, desktop and mobile apps
+
+-   Setup is easy
+
+-   Supports multiple languages
+
+Cons:
+
+-   Very slow
+
+-   Documentation is poor
+
+-   Play-back isn't available
+
+Selenium
+
+Pros:
+
+-   Very easy to use, especially with IDE
+
+-   Playback functionality is helpful
+
+-   Supports multiple browsers
+
+Cons:
+
+-   No support for images
+
+-   The recordings often crash. Tests have to be recreated
+
+-   Less features that can be tested.
+
 
 # How the team work/effort was divided and managed
 
