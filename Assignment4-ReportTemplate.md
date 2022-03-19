@@ -98,6 +98,18 @@ Updated Test Suite (Range class)
 
 [Details Here](./media/NEW_REPORT_RANGE.pdf)
 
+Original Test Suite (DataUtilities class)
+
+![](./media/OLD_DATAUTILITIES.png)
+
+[Details Here](./media/OLD_REPORT_DATAUTILITIES.pdf)
+
+Updated Test Suite (DataUtilities class)
+
+![](./media/NEW_DATAUTILITIES.png)
+
+[Details Here](./media/NEW_REPORT_DATAUTILITIES.pdf)
+
 # Analysis drawn on the effectiveness of each of the test classes
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
