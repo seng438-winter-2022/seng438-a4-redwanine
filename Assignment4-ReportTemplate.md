@@ -156,7 +156,36 @@ We created tests for methods that had coverage but survived. For example, for th
 
 -   getCentralValue() we wrote 2 new tests
 
+Lastly, we ran into a significant execution time problem when running Pitclipse. Each mutation test run took over 20 minutes, so it was impractical to run Pitclipse after every new test case we developed. Oftentimes, instead of running Pitclipse, we went and modified the source code with a specific mutation to see if our new test case would fail with it. If our new test case did fail, this would mean that the associated mutation would be killed in a new run of Pitclipse. After completing all of our new test cases, we did a final run of Pitclipse to confirm the results, which turned out as expected.
+
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
+
+Why do we need it?
+
+Other testing methodologies, such as white or black-box testing, enable testers to create high-quality test suites. Even if the tests have a high percentage of coverage metrics, they may not be considered effective. By injecting flaws into the source code, mutation testing can be used to assess the robustness of test suites. These alterations in the source code are evaluated to see if the existing suite is capable of detecting these errors.
+
+Advantages:
+
+-   After this testing, customers receive the most stable and reliable system
+
+-   Mutation testing has the ability to detect all faults in the source code
+
+-   High coverage of the source program is attained
+
+-   Quality of software programs is improved.
+
+-   Using tools, such as Pitest, provide testers with metrics to determine whether the system is adequately tested.
+
+Disadvantages:
+
+-   Complex mutations are difficult to implement.
+
+-   Requires familiarity with the code base, as testers must determine how to catch each mutation. Thus, it can be tedious and time consuming. 
+
+-   Depending on the system, computation time required to run automation may be lengthy 
+
+-   Injecting changes to source code can result in equivalent mutants
+
 
 # Explain your SELENUIM test case design process
 
