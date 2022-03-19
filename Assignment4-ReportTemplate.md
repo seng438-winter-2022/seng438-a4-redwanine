@@ -114,7 +114,7 @@ Updated Test Suite (DataUtilities class)
 
 # Analysis drawn on the effectiveness of each of the test classes
 
-The effectiveness of the updated test suite for the DataUtilities class is high, as we managed to reach a mutation coverage of 88%. This signifies that majority of the mutations have been killed. For Range class we managed to reach a mutation coverage of 63%, which is below what we expected. We did not manage to reach 100% mutation coverage for various reasons, one of which is the presence of stillborn and equivalent mutants.
+The effectiveness of the updated test suite for the DataUtilities class is high, as we managed to reach a mutation coverage of 88%. This signifies that majority of the mutations have been killed. For Range class we managed to reach a mutation coverage of 72%, which is also very high, signifying that our test cases are effective. We did not manage to reach 100% mutation coverage for various reasons, one of which is the presence of stillborn and equivalent mutants.
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy including a discussion on how equivalent mutants could be detected
 
