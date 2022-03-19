@@ -7,7 +7,7 @@
 | Student Names:  |  Rahat Islam |
 |                 |  Redwanul Islam |
 |                 |  Zeeshan Chougle |
-|                 |  Mahtab Khan |
+|                 |  Mohammad Mahtab Khan |
 
 # Introduction
 The aim of this lab is to explore various concepts and tools related to Mutation Testing and GUI Testing. In the first part, we used PIT, a mutation testing tool to inject mutants into our code and analyse the effectiveness of our original test suite. We then created more tests in order to improve our mutation coverage for specific classes. In part two, we used a tool called Selenium to create GUI tests, by recording and playing tests. We then compared Slenium to Sikulix, which is another tool used for GUI testing.
