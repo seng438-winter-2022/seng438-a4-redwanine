@@ -1,0 +1,1057 @@
+{
+  "id": "34f1ebde-01b8-4dbf-a43c-3040e43b4000",
+  "version": "2.0",
+  "name": "SportChek",
+  "url": "https://www.sportchek.ca",
+  "tests": [{
+    "id": "7ce1cf92-e299-4884-baf1-eae054031478",
+    "name": "MailingListValid",
+    "commands": [{
+      "id": "176670ee-1c18-4802-b53a-ab8894cc0573",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f3d5e42-21d8-4a9a-8578-cd6b35b5b935",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1979fab5-5824-43c1-ab8d-cdc91508a10d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enterprise-header__section:nth-child(3) a:nth-child(1) > font",
+      "targets": [
+        ["css=.enterprise-header__section:nth-child(3) a:nth-child(1) > font", "css:finder"],
+        ["xpath=//div[3]/div/div/a/font", "xpath:position"],
+        ["xpath=//font[contains(.,'Sign Up For Our Mailing List To Get 10% Off!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7536edb-0943-4b96-88aa-bd52ad45b394",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,10)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "854bd73c-d208-4767-9391-6e7949d9677d",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.sign-up__input-wrapper:nth-child(2) .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "137ba269-0f88-4cd2-9a06-cb282d7a54c6",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.sign-up__input-wrapper:nth-child(2) .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "zee@gmail.com"
+    }, {
+      "id": "eeb1f594-990b-4f53-8ae9-652f249f154e",
+      "comment": "",
+      "command": "click",
+      "target": "name=postalCode",
+      "targets": [
+        ["name=postalCode", "name"],
+        ["css=.sign-up__input-wrapper:nth-child(3) .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='postalCode']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[2]/label/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9752da48-a852-40fe-8c8d-e7f9f79f8987",
+      "comment": "",
+      "command": "type",
+      "target": "name=postalCode",
+      "targets": [
+        ["name=postalCode", "name"],
+        ["css=.sign-up__input-wrapper:nth-child(3) .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='postalCode']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[2]/label/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div/input", "xpath:position"]
+      ],
+      "value": "T3B 0J6"
+    }, {
+      "id": "ac628cbd-b36f-4a7f-a0e4-184dd0748c5a",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstName",
+      "targets": [
+        ["name=firstName", "name"],
+        ["css=.sign-up__input-wrapper:nth-child(4) .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[3]/label/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/div/input", "xpath:position"]
+      ],
+      "value": "Zeeshan"
+    }, {
+      "id": "5bca4b71-60b8-4cf6-bf01-e167dda8934b",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastName",
+      "targets": [
+        ["name=lastName", "name"],
+        ["css=.sign-up__input-wrapper:nth-child(5) .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[4]/label/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/label/div/input", "xpath:position"]
+      ],
+      "value": "Chougle"
+    }, {
+      "id": "a2d543d7-3ec3-4c5e-b730-bdbeba3cd4b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign-up__input-wrapper:nth-child(3) .sign-up__input-box",
+      "targets": [
+        ["css=.sign-up__input-wrapper:nth-child(3) .sign-up__input-box", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/div[2]/label/div", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe6bb97a-c246-42c1-b199-44efeccef51b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox",
+      "targets": [
+        ["css=.checkbox", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/div[5]/label/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/label/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c732f7-fef5-4f72-917b-4dedcfee21b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign-up__submit",
+      "targets": [
+        ["css=.sign-up__submit", "css:finder"],
+        ["xpath=//input[@value='Sign me up']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da666674-d155-46c5-952f-3e6e3c46bd4f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2.6666667461395264)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d687a491-8c96-487b-9719-320f58ad5f03",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "JOIN THE SPORT CHEK COMMUNITY FOR EXCLUSIVE DEALS AND NEW RELEASES"
+    }]
+  }, {
+    "id": "e7db42b0-0c5b-4a54-be5e-9627e2b61c7c",
+    "name": "MailingListInvalidEmail",
+    "commands": [{
+      "id": "d440bab7-b61a-47e9-a678-1c9f63fb9e10",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e08fcba5-f18c-4f1c-8827-9464fa6927ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4a33312-585c-4fa3-8b97-065f1cf7b379",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav__item:nth-child(8) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(8) .main-menu__text", "css:finder"],
+        ["xpath=//li[8]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ff83ef-ff50-44bc-8f02-363b54db0091",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-nav__item:nth-child(8) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(8) .main-menu__text", "css:finder"],
+        ["xpath=//li[8]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc7c5f84-c3a9-4876-acb9-76b2868b5edf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enterprise-header__section:nth-child(3) a:nth-child(1) > font",
+      "targets": [
+        ["css=.enterprise-header__section:nth-child(3) a:nth-child(1) > font", "css:finder"],
+        ["xpath=//div[3]/div/div/a/font", "xpath:position"],
+        ["xpath=//font[contains(.,'Sign Up For Our Mailing List To Get 10% Off!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6d7f3be-1d75-414c-89a7-dc22122f6b0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign-up__input-wrapper:nth-child(2) > .label-set",
+      "targets": [
+        ["css=.sign-up__input-wrapper:nth-child(2) > .label-set", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1f50dd4-9814-431a-8069-bcd4be217a1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.formTitle > h3",
+      "targets": [
+        ["css=.formTitle > h3", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/h2/div/h3", "xpath:idRelative"],
+        ["xpath=//h2/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'BE THE FIRST TO KNOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e517c8a-7404-4118-9b0c-6d456d7f5cd6",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.validation-error:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd047d93-2b92-4a66-a65d-15f81a6d44de",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.validation-error:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "zeeshan1234"
+    }, {
+      "id": "0b07cbf1-0f32-49e4-b007-be940d2104aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign-up__input-wrapper:nth-child(2) .sign-up__input-box",
+      "targets": [
+        ["css=.sign-up__input-wrapper:nth-child(2) .sign-up__input-box", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/div/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "654d9a55-f09a-4eed-ad93-1e2549f1be5a",
+      "comment": "",
+      "command": "click",
+      "target": "name=postalCode",
+      "targets": [
+        ["name=postalCode", "name"],
+        ["css=.sign-up__input-wrapper:nth-child(3) .label-set__text-field", "css:finder"],
+        ["xpath=//input[@name='postalCode']", "xpath:attributes"],
+        ["xpath=//form[@id='sign-up-form']/div[2]/label/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16e14bce-c7a0-4636-b324-d62e1d28dd9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign-up__input-wrapper:nth-child(2) .validation-error_show",
+      "targets": [
+        ["css=.sign-up__input-wrapper:nth-child(2) .validation-error_show", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/div/label/div/span", "xpath:idRelative"],
+        ["xpath=//label/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please enter your email address in this format: name@example.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0cbc3fd-cb0d-4801-b0d3-e8f7e666c698",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign-up__input-wrapper:nth-child(2) .validation-error_show",
+      "targets": [
+        ["css=.sign-up__input-wrapper:nth-child(2) .validation-error_show", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/div/label/div/span", "xpath:idRelative"],
+        ["xpath=//label/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please enter your email address in this format: name@example.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fea17dd2-26ae-4350-9ef7-bb23ca6bcee8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sign-up__input-wrapper:nth-child(2) .validation-error_show",
+      "targets": [
+        ["css=.sign-up__input-wrapper:nth-child(2) .validation-error_show", "css:finder"],
+        ["xpath=//form[@id='sign-up-form']/div/label/div/span", "xpath:idRelative"],
+        ["xpath=//label/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please enter your email address in this format: name@example.com')]", "xpath:innerText"]
+      ],
+      "value": "Please enter your email address in this format: name@example.com"
+    }]
+  }, {
+    "id": "297810cb-d3f2-476d-9c64-60284efe0677",
+    "name": "WrongPromoCode",
+    "commands": [{
+      "id": "d67069ce-82b6-4aca-a85c-d09dda4517df",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e97c00b1-3129-4bac-b7e1-0636137511ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45bfbca7-85bc-4d2b-8306-6d349ad18d99",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.header-cart__trigger", "css:finder"],
+        ["xpath=//a[contains(@href, 'shopping-cart.html')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c689bc1-b16b-4010-a3e5-f8a025ded84d",
+      "comment": "",
+      "command": "click",
+      "target": "name=vouchers[]",
+      "targets": [
+        ["name=vouchers[]", "name"],
+        ["css=.single-field__text", "css:finder"],
+        ["xpath=//input[@name='vouchers[]']", "xpath:attributes"],
+        ["xpath=//form[@id='co-promo__form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc779cf4-55ab-4d7e-94e9-d6c43fbc1d03",
+      "comment": "",
+      "command": "type",
+      "target": "name=vouchers[]",
+      "targets": [
+        ["name=vouchers[]", "name"],
+        ["css=.single-field__text", "css:finder"],
+        ["xpath=//input[@name='vouchers[]']", "xpath:attributes"],
+        ["xpath=//form[@id='co-promo__form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Wrong"
+    }, {
+      "id": "dc459ea7-205c-4ba6-a6e7-2e66dec73f70",
+      "comment": "",
+      "command": "click",
+      "target": "id=co-promo__apply-button",
+      "targets": [
+        ["id=co-promo__apply-button", "id"],
+        ["css=#co-promo__apply-button", "css:finder"],
+        ["xpath=//button[@id='co-promo__apply-button']", "xpath:attributes"],
+        ["xpath=//form[@id='co-promo__form']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad51021-09c2-4c7b-9849-dd92cba6319e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.single-field",
+      "targets": [
+        ["css=.single-field", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[2]/div[3]/div/section/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f62091dc-65f4-4b64-a77f-9bb3b115af9a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=validation-error_new-voucher-code",
+      "targets": [
+        ["id=validation-error_new-voucher-code", "id"],
+        ["css=#validation-error_new-voucher-code", "css:finder"],
+        ["xpath=//span[@id='validation-error_new-voucher-code']", "xpath:attributes"],
+        ["xpath=//form[@id='co-promo__form']/span", "xpath:idRelative"],
+        ["xpath=//form/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Promotional code has not been found. Please check the code and try again.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "75feaf49-81f9-4f40-8837-d90f40b4c422",
+    "name": "searchGatorade",
+    "commands": [{
+      "id": "1b391e7a-3c33-44d9-a7a2-a3220ecae8df",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4e413c4-b4c9-4867-a867-4f965a9e5f27",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b98db17d-0831-4c45-847a-156b45c0ceb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db1485dd-28b1-4c3a-9ae4-c55e2a0e4053",
+      "comment": "",
+      "command": "type",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "gatorade"
+    }, {
+      "id": "b0e668e8-8aa8-42c5-85d4-645e6e5556e0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__input",
+      "targets": [
+        ["css=.header-search__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b8afce79-1f20-43e0-b1f5-2bfe7b27a2d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid__list-item:nth-child(3) .product-title-text",
+      "targets": [
+        ["css=.product-grid__list-item:nth-child(3) .product-title-text", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[3]/div[3]/div/ul/li[3]/div/div/div[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7170605-3e5d-4491-930b-b0a9f0845c67",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5114b03a-b241-4bc4-a4b9-1230a21d1bd5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9c6790d-45b3-4c08-96a6-9f795d924720",
+      "comment": "",
+      "command": "click",
+      "target": "css=.global-page-header__title",
+      "targets": [
+        ["css=.global-page-header__title", "css:finder"],
+        ["xpath=//div[@id='mediaViewer']/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Gatorade Squeeze Bottle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebf9fa85-41a6-4ed6-9b38-1846e6a2bd82",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.global-page-header__title",
+      "targets": [
+        ["css=.global-page-header__title", "css:finder"],
+        ["xpath=//div[@id='mediaViewer']/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Gatorade Squeeze Bottle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "17e04bf8-f28d-47be-a91b-5f84c5c07eeb",
+    "name": "SelectStoreCalgary",
+    "commands": [{
+      "id": "912ec852-50db-4d3d-b24c-a515c558b9ec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bd62284-ecee-4f00-8a75-713060732069",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a07ed6e-da83-4e0f-a57c-e7fd1fb7be1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-pickup-store__link-container",
+      "targets": [
+        ["css=.header-pickup-store__link-container", "css:finder"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Your Store:\nSunridge Mall Sport Chek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0523a55f-5d85-4f0b-b8cb-d385587169cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d122ebf-31f9-4a9a-880b-70850595b1f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca7d50d3-667d-423d-8c2a-1884ee3594c4",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3db49111-66f2-4bf8-818d-0a0adb9f8e5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6240642-5b2e-4f90-b29f-82cf5efcb31a",
+      "comment": "",
+      "command": "type",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "T3J 0R7"
+    }, {
+      "id": "54601a66-0e8c-4600-9008-1931b7bd19e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7579fe6-b774-43b4-b605-b0e2892d841a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76ed512e-5061-4f31-ad9e-4132bfd43e71",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2756e839-2b3c-42df-8d6c-d6a6ad7ac1f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pickup-store-list__item--preferred-store .pickup-store-list__title",
+      "targets": [
+        ["css=.pickup-store-list__item--preferred-store .pickup-store-list__title", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section[3]/div/ul/li/div/header/h4/span", "xpath:idRelative"],
+        ["xpath=//h4/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcc7699f-56a8-45fa-a213-404561edc292",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.pickup-store-list__item--preferred-store .pickup-store-list__title",
+      "targets": [
+        ["css=.pickup-store-list__item--preferred-store .pickup-store-list__title", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section[3]/div/ul/li/div/header/h4/span", "xpath:idRelative"],
+        ["xpath=//h4/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "424fc6ab-e954-45de-8e58-e6d59f2664e0",
+    "name": "SelectStoreToronto",
+    "commands": [{
+      "id": "e0397b7c-fc6f-4ca0-857e-fda42571cdd1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a45a93d-b5f0-4424-a0da-edb7e459e293",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5585270e-229c-40a5-b83d-52ac43bb108a",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPickupStoreName",
+      "targets": [
+        ["id=headerPickupStoreName", "id"],
+        ["css=#headerPickupStoreName", "css:finder"],
+        ["xpath=//span[@id='headerPickupStoreName']", "xpath:attributes"],
+        ["xpath=//div[@id='header-pickup-store-widget']/a/span[3]", "xpath:idRelative"],
+        ["xpath=//a/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sunridge Mall Sport Chek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bb0c028-8078-43ce-ba00-f66899f0146d",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13fd7352-184a-420e-bdf0-b4e2dcce904c",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49e8e370-140a-4988-96c3-1df5598c955a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd760f42-6469-4240-8177-e3f084b4a4d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc5e0c04-c981-4a66-8e55-8f6cfed9c35f",
+      "comment": "",
+      "command": "type",
+      "target": "id=pickup-modal-choose__input",
+      "targets": [
+        ["id=pickup-modal-choose__input", "id"],
+        ["name=location", "name"],
+        ["css=#pickup-modal-choose__input", "css:finder"],
+        ["xpath=//input[@id='pickup-modal-choose__input']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Toronto, ON"
+    }, {
+      "id": "fe091c34-e610-48bc-a712-9288cd12344f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9790ae3-2a24-4416-80ff-05087a1bfdac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73b7c407-aee5-45ca-bb6e-352586ee6117",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pickup-modal-choose__submit",
+      "targets": [
+        ["css=.pickup-modal-choose__submit", "css:finder"],
+        ["xpath=//input[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ec07cba-e077-4e30-96b8-704db2378696",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pickup-store-list__item:nth-child(2)",
+      "targets": [
+        ["css=.pickup-store-list__item:nth-child(2)", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section[3]/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//section[3]/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81f9035b-720c-4c48-9a70-c43c3f0656c1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.pickup-store-list__item:nth-child(2) .pickup-store-list__title",
+      "targets": [
+        ["css=.pickup-store-list__item:nth-child(2) .pickup-store-list__title", "css:finder"],
+        ["xpath=//section[@id='pickup-store-modal']/form/div/section[3]/div/ul/li[2]/div/header/h4/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/header/h4/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "21787db5-a369-4955-8f12-38958ec87582",
+    "name": "InvalidSignIn",
+    "commands": [{
+      "id": "2d0a2f1b-9026-4f78-98f4-8a0512884508",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e3e1dec-1edb-4ff2-ab57-d1b5a1ee18a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46e55c7f-b59c-467c-8957-c3615ca525df",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Electronics",
+      "targets": [
+        ["linkText=Electronics", "linkText"],
+        ["css=.page-nav__item:nth-child(8) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/electronics')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0669f53c-f235-4730-8942-e707f66b44b3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Electronics",
+      "targets": [
+        ["linkText=Electronics", "linkText"],
+        ["css=.page-nav__item:nth-child(8) > .page-nav__link", "css:finder"],
+        ["xpath=//a[contains(@href, 'categories/electronics')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "680dc8fe-3069-48a1-8ca7-abecd272b208",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.page-nav__item:nth-child(8) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(8) .main-menu__text", "css:finder"],
+        ["xpath=//li[8]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c327f772-49d7-4bce-8eea-058026fec623",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.page-nav__item:nth-child(8) .main-menu__text",
+      "targets": [
+        ["css=.page-nav__item:nth-child(8) .main-menu__text", "css:finder"],
+        ["xpath=//li[8]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf16b48f-b8ae-4e73-8f46-2a1e973edf03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enterprise-account__button_sign-in",
+      "targets": [
+        ["css=.enterprise-account__button_sign-in", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b452b11a-77ee-4517-97ce-daf919bcd119",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-login-form .gigya-input-text",
+      "targets": [
+        ["css=#gigya-login-form .gigya-input-text", "css:finder"],
+        ["xpath=(//input[@name='username'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a34671bd-8fb7-45e5-b347-8f726d332d64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [
+        ["css=.gigya-input-password:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c63a95f-686b-4da1-b43d-99a7e3575d0b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.gigya-input-password:nth-child(2)",
+      "targets": [
+        ["css=.gigya-input-password:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='password'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "sadfdsf"
+    }, {
+      "id": "58a40d75-83ac-4e41-ad68-705a339192a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit",
+      "targets": [
+        ["css=#gigya-login-form .gigya-composite-control-submit > .gigya-input-submit", "css:finder"],
+        ["xpath=//input[@value='SIGN IN']", "xpath:attributes"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "261a001f-b887-4d84-bf2e-61c385490b19",
+      "comment": "",
+      "command": "click",
+      "target": "id=gigya-login-form",
+      "targets": [
+        ["id=gigya-login-form", "id"],
+        ["css=#gigya-login-form", "css:finder"],
+        ["xpath=//form[@id='gigya-login-form']", "xpath:attributes"],
+        ["xpath=//div[@id='gigya-login-screen']/form", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0b76829-cfce-4f05-a70e-35d23d2130a9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.gigya-error-msg-active",
+      "targets": [
+        ["css=.gigya-error-msg-active", "css:finder"],
+        ["xpath=//form[@id='gigya-login-form']/div[2]/div[3]/div[6]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/div[3]/div[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a79fb60a-e6a0-4a07-a05c-03a613b66a84",
+    "name": "TrueFit",
+    "commands": [{
+      "id": "164349ad-ca2f-4793-a2e5-0ff446e6cba5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17155697-74d3-42b0-b338-97ddd680e085",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79eb7944-d804-4138-97cf-6994dc4a47d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > font",
+      "targets": [
+        ["css=a:nth-child(3) > font", "css:finder"],
+        ["xpath=//a[2]/font", "xpath:position"],
+        ["xpath=//font[contains(.,'Find Your True Fit\t')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66141c1e-04e7-4120-8e84-57ac794e5ee6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section-header__title",
+      "targets": [
+        ["css=.section-header__title", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'How True Fit® Works')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70f62072-55e8-4fed-9538-7f4f9883484a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.section-header__title",
+      "targets": [
+        ["css=.section-header__title", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'How True Fit® Works')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "42be9c18-91ea-41f1-b4fc-56ff7a07eb6f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.sportchek.ca/"],
+  "plugins": []
+}
