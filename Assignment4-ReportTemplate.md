@@ -108,7 +108,9 @@ Updated Test Suite (DataUtilities class)
 
 ![](./media/NEW_DATAUTILITIES.PNG)
 
-[Details Here](./media/NEW_REPORT_DATAUTILITIES.pdf)
+[Details Here](./media/NEW_REPORT_DATAUTILITIES.pdf)<br />
+
+[Final Test Suite Here](./JFreeChart_Lab4.zip)
 
 # Analysis drawn on the effectiveness of each of the test classes
 
