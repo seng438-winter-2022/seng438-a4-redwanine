@@ -127,30 +127,34 @@ Equivalent mutant detection is one of the biggest obstacles for practical usage 
 **Equivalent mutations we found manually:**
 
 line 127 of DataUtilities:
-==========================
-
 for(int r = 0; r < rowCount; i++) -> for(int r = 0; r != rowCount; i++)
-=======================================================================
 
 line 153 of DataUtilities:
-==========================
-
 for(int v = 0; v < validRows.length; i++) -> for(int v = 0; v != validRows.length; i++)
-=======================================================================================
 
 line 245 of DataUtilities:
-==========================
-
 for (int i = 0; i < l1; i++) -> for (int i = 0; i != l1; i++)
-=============================================================
 
 line 265 of DataUtilities:
-==========================
-
 for (int i = 0; i < data.getItemCount(); i++) -> for (int i = 0; i != data.getItemCount(); i++)
-===============================================================================================
 
-# A discussion of what could have been done to improve the mutation score of the test suites
+line 272 of DataUtilities:
+for (int i = 0; i < data.getItemCount(); i++) -> for (int i = 0; i != data.getItemCount(); i++)
+
+
+# A discussion of how we improved the mutation score of the test suites. Our design strategy.
+
+We created test cases that deal with methods that had no coverage. For example, the following method
+
+-   intersect() , had 6 mutants and they all survived. So we wrote 2 new tests that ensured all the surviving mutants were killed.
+
+We manually checked for mutants that survived and specifically created test cases to kill those mutants.
+
+We created tests for methods that had coverage but survived. For example, for the following methods
+
+-   getUpperBound() we wrote 1 new test
+
+-   getCentralValue() we wrote 2 new tests
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
