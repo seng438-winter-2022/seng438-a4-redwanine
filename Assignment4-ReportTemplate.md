@@ -86,7 +86,17 @@ This mutant is not killed as we do not have any test cases which deal with inter
 
 # Report all the statistics and the mutation score for each test class
 
+Original Test Suite (Range class)
 
+![](./media/OLD_RANGE.PNG)
+
+[Details Here](./media/OLD_REPORT_RANGE.pdf)
+
+Updated Test Suite (Range class)
+
+![](./media/NEW_RANGE.PNG)
+
+[Details Here](./media/NEW_REPORT_RANGE.pdf)
 
 # Analysis drawn on the effectiveness of each of the test classes
 
