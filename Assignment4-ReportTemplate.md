@@ -248,7 +248,12 @@ Cons:
 
 # How the team work/effort was divided and managed
 
+We split the work evenly across each person. We each spent time doing the mutation tests, and created ways to handle the survived mutants. Afterwards, each person created their own tests for selenium and we compiled them all after everyone was complete.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+The mutation testing was very annoying for our group. That is because it took a long time to setup, due to many different errors that we were encountering. Furthermore, running the PIT tool took on average 20 minutes to load. Selenium on the other hand wasn’t as difficult to use, although it is also buggy at times. Running the same tests on a different computer or different internet network would sometimes mess with the test’s success for no reason. Hopefully the next assignment will involve tools that are more user friendly for students to actually use. 
+
 # Comments/feedback on the lab itself
+
+Overall the assignment taught us some skills on testing more features of a program. It would be really appreciated if for the next lab, we will not be given tools are very difficult to use by students. Something that is easier to setup, less buggy and doesn’t take 20 minutes to run would be appreciated :).
