@@ -112,7 +112,43 @@ Updated Test Suite (DataUtilities class)
 
 # Analysis drawn on the effectiveness of each of the test classes
 
-# A discussion on the effect of equivalent mutants on mutation score accuracy
+# A discussion on the effect of equivalent mutants on mutation score accuracy including a discussion on how equivalent mutants could be detected
+
+**Effect of equivalent mutants on mutation score accuracy:
+
+The problem of equivalent mutants--- mutations that leave the program's overall semantics unchanged, and therefore cannot be caught by any test suite. Equivalent mutants thus act as false positives: They appear to indicate a weakness in the test suite, but in fact do not, as no test can detect them. The mutation score is the percentage of killed mutants divided by the total number of mutants multiplied by 100.
+
+Because of equivalent mutations, the stated mutation coverage will never approach 100%. This is because similar mutants increase the number of mutants in the test suite but do not change the number of mutants killed. Because a lower score often indicates that a test suite requires improvement, these similar alterations degrade the accuracy of the assessment.
+
+**Detecting equivalent mutants:
+
+Equivalent mutant detection is one of the biggest obstacles for practical usage of mutation testing. A review of the source code is required to find equivalent mutants. Test inputs should be checked for accuracy, which includes comparing the source code to the mutant code and flagging any discrepancies. Testers should examine their suites' behaviour from a black-box to a white-box perspective, looking for logic changes and logic outputs. Unfortunately, these methods can be difficult and time-consuming, and as a result, they are not favoured by all.
+
+**Equivalent mutations we found manually:
+
+line 127 of DataUtilities:
+==========================
+
+for(int r = 0; r < rowCount; i++) -> for(int r = 0; r != rowCount; i++)
+=======================================================================
+
+line 153 of DataUtilities:
+==========================
+
+for(int v = 0; v < validRows.length; i++) -> for(int v = 0; v != validRows.length; i++)
+=======================================================================================
+
+line 245 of DataUtilities:
+==========================
+
+for (int i = 0; i < l1; i++) -> for (int i = 0; i != l1; i++)
+=============================================================
+
+line 265 of DataUtilities:
+==========================
+
+for (int i = 0; i < data.getItemCount(); i++) -> for (int i = 0; i != data.getItemCount(); i++)
+===============================================================================================
 
 # A discussion of what could have been done to improve the mutation score of the test suites
 
